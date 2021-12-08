@@ -1,0 +1,8 @@
+
+description = 'JBot'
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-websocket', version:'1.4.0.RELEASE'
+    testCompile(group: 'org.springframework.boot', name: 'spring-boot-starter-test', version:'1.4.0.RELEASE') {
+exclude(module: 'commons-logging')
+    }
+}

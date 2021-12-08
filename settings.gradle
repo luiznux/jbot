@@ -1,0 +1,6 @@
+rootProject.name = 'jbot-parent'
+include ':jbot'
+include ':jbot-example'
+
+project(':jbot').projectDir = "$rootDir/jbot" as File
+project(':jbot-example').projectDir = "$rootDir/jbot-example" as File
